@@ -1,0 +1,16 @@
+  .fancy{
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  .fancycontent{
+    z-index: 200;
+  }
+  .fancy .fancyhide{
+    z-index: 10000;
+    position: absolute;
+    top: 0px;
+    visibility: hidden;
+    word-break:break-all;
+    font-size: 18px;
+  }
